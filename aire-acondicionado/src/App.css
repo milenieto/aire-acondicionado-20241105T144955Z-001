@@ -1,0 +1,100 @@
+.navegador{
+  background: linear-gradient(to right, rgb(47, 66, 238) 0%, rgba(255, 167, 109, 0.842)100%);
+}
+.icono{
+  width: 60px;
+  border-radius: 50%;
+}
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  background-color: white;
+}
+.explicacion{
+  align-items: center;
+  width: 40%;
+  text-align: center;
+  margin-top: 5%;
+}
+.logo{
+  border-radius: 50%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  filter: drop-shadow(0 0 2em rgb(228, 225, 222));
+  transition: all 0.5s;
+}
+.logo:hover{
+  filter: drop-shadow(0 0 2em rgba(255, 167, 109, 0.842));
+}
+.proceso{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(255, 167, 109, 0.842) 0%, rgba(47, 66, 238, 0.651)100%);
+  padding-top: 5%;
+}
+.img-proceso{
+  width: 200px;
+}
+.texto{
+  width: 50%;
+  margin-right: 10%;
+  font-size: 20px;
+}
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 5%;
+  transition: all 0.5s;
+}
+.tarjeta:hover{
+  filter: drop-shadow(0 0 4em rgb(47, 66, 238));
+  color: black;
+  font-size: x-large;
+}
+.participante{
+  border-radius: 50%;
+  border: 10px solid rgb(47, 66, 238);
+}
+.nosotros{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5%;
+}
+.nosotros-orden{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 60%;
+}
+.contacto{
+  background-color:rgb(47, 66, 238);
+  padding-top: 5%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 40%;
+}
+.links a{
+  color: rgba(218, 218, 218, 0.938);
+  margin-bottom: 5%;
+  transition: all 0.5s;
+}
+.links a:hover{
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1em rgb(255, 255, 255));
+}
